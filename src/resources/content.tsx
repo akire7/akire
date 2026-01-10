@@ -60,9 +60,9 @@ const home: Home = {
   label: "Home",
   title: `${person.name}`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>akire</>,
   featured: {
-    display: true,
+    display: false, // disable "featured" element
     title: (
       <Row gap="12" vertical="center">
         <strong className="ml-4">Once UI</strong>{" "}
@@ -76,8 +76,8 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
-</>
+    Software engineer, but on the path to become an extremely <Text as="span" size="xl" weight="strong">skilled</Text> one.
+    </>
   ),
 };
 
