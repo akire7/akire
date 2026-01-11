@@ -89,125 +89,157 @@ const about: About = {
     ),
   },
   work: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "<hidden content>",
+        timeframe: "2023 - Present",
+        role: "Software Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            &lt;hidden content&gt;
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            &lt;hidden content&gt;
+          </>,
+          <>
+            &lt;hidden content&gt;
           </>,
         ],
+        // Provide an empty array if you don't want to show any images
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/forbidden_image.png",
+            alt: "",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "<hidden content>",
+        timeframe: "2022",
+        role: "Software Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            &lt;hidden content&gt;
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            &lt;hidden content&gt;
+          </>,
+          <>
+            &lt;hidden content&gt;
           </>,
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/forbidden_image.png",
+            alt: "",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "<hidden content>",
+        timeframe: "2021",
+        role: "Software Engineer",
+        achievements: [
+          <>
+            &lt;hidden content&gt;
+          </>,
+          <>
+            &lt;hidden content&gt;
+          </>,
+          <>
+            &lt;hidden content&gt;
+          </>,
+        ],
+        images: [
+          {
+            src: "/images/projects/forbidden_image.png",
+            alt: "",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
   studies: {
-    display: true, // set to false to hide this section
+    display: true,
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
+        name: "University of <hidden content>",
+        description: <>Bachelors degree in software engineering.</>,
+      }
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Technical Skills",
     skills: [
       {
-        title: "Figma",
+        title: "<hidden content>",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>
+            &lt;hidden content&gt;
+          </>
         ),
         tags: [
+          /*
           {
             name: "Figma",
             icon: "figma",
           },
+          */
         ],
-        // optional: leave the array empty if you don't want to display images
+        // Provide an empty array if you don't want to show any images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/projects/forbidden_image.png",
+            alt: "",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        title: "Next.js",
+        title: "<hidden content>",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            &lt;hidden content&gt;
+          </>
         ),
-        tags: [
-          {
-            name: "JavaScript",
-            icon: "javascript",
-          },
-          {
-            name: "Next.js",
-            icon: "nextjs",
-          },
-          {
-            name: "Supabase",
-            icon: "supabase",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
+        tags: [],
         images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
+            src: "/images/projects/forbidden_image.png",
+            alt: "",
             width: 16,
             height: 9,
           },
         ],
       },
+      {
+        title: "<hidden content>",
+        description: (
+          <>
+            &lt;hidden content&gt;
+          </>
+        ),
+        tags: [],
+        images: [
+          {
+            src: "/images/projects/forbidden_image.png",
+            alt: "",
+            width: 16,
+            height: 9,
+          },
+        ],
+      }
     ],
   },
 };
