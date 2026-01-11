@@ -76,11 +76,11 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
+    display: false, // disable schedule element
     link: "https://cal.com",
   },
   intro: {
-    display: false, // disable schedule element
+    display: true,
     title: "Introduction",
     description: (
       <>
