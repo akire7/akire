@@ -242,12 +242,37 @@ const gallery: Gallery = {
       orientation: "horizontal",
     },
     {
+      src: "/images/gallery/pandas_ily.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/memtrix_all_you_are.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
       src: "/images/gallery/echos_haunt.png",
       alt: "image",
       orientation: "horizontal",
     },
     {
       src: "/images/gallery/jasper_avenue.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/the_swarm.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/knights_valiant_hearts.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/astra_militarum_desert.png",
       alt: "image",
       orientation: "horizontal",
     },
