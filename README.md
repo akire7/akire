@@ -20,7 +20,7 @@ Frameworks:
 - Next.js
 
 Tools:
-- [magic-portfolio](https://github.com/once-ui-system/magic-portfolio)
+- [Once UI](https://once-ui.com/)
 
 Deployment:
 - Vercel
