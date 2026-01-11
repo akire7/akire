@@ -215,10 +215,10 @@ const about: About = {
 const blog: Blog = {
   path: "/blog",
   label: "Blog",
-  title: "Writing about design and tech...",
+  title: "", // Empty title for cleaner blog page
   description: `Read what ${person.name} has been up to recently`,
   // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
+  // All blog posts will be shown on the /blog route
 };
 
 const work: Work = {
