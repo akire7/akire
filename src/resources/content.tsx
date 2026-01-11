@@ -8,7 +8,7 @@ const person: Person = {
   role: "Software Engineer",
   avatar: "/images/cropped_baby_jindo.png",
   email: "akiretest7@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "America/New_York", // IANA time zone identifier (https://data.iana.org/time-zones/tzdb-2021a/zone1970.tab)
   languages: ["English", "Korean"], // Empty array if you don't want to display any languages
 };
 
@@ -25,25 +25,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
-    essential: true,
-  },
-  {
-    name: "LinkedIn",
-    icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-    essential: true,
-  },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://github.com/akire7/akire",
     essential: true,
   },
   {
@@ -76,7 +58,7 @@ const home: Home = {
   },
   subline: (
     <>
-    Software engineer, but on the path to become an extremely <Text as="span" size="xl" weight="strong">skilled</Text> one.
+      Software engineer, but on the path to become an extremely <Text as="span" size="xl" weight="strong">skilled</Text> one.
     </>
   ),
 };
@@ -98,13 +80,11 @@ const about: About = {
     link: "https://cal.com",
   },
   intro: {
-    display: true,
+    display: false, // disable schedule element
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Software Engineer with a passion for coding and creating cool things.
       </>
     ),
   },
