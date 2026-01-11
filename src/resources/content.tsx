@@ -265,7 +265,12 @@ const gallery: Gallery = {
       src: "/images/gallery/echos_haunt.png",
       alt: "image",
       orientation: "horizontal",
-    }
+    },
+    {
+      src: "/images/gallery/jasper_avenue.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
   ],
 };
 
