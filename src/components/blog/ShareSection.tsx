@@ -97,7 +97,6 @@ export function ShareSection({ title, url }: ShareSectionProps) {
     }
   };
 
-  // Get enabled platforms
   const enabledPlatforms = Object.entries(socialSharing.platforms)
     .filter(([_, enabled]) => enabled && _ !== 'copyLink')
     .map(([platformKey]) => ({ key: platformKey, ...socialPlatforms[platformKey] }))
