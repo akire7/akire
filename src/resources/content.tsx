@@ -255,9 +255,12 @@ const gallery: Gallery = {
   label: "Gallery",
   title: `Photo gallery – ${person.name}`,
   description: `A photo collection by ${person.name}`,
-  // Images by https://lorant.one
-  // These are placeholder images, replace with your own
   images: [
+    {
+      src: "/images/gallery/love_wont_sleep.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
     {
       src: "/images/gallery/horizontal-1.jpg",
       alt: "image",
@@ -297,7 +300,7 @@ const gallery: Gallery = {
       src: "/images/gallery/vertical-3.jpg",
       alt: "image",
       orientation: "vertical",
-    },
+    }
   ],
 };
 
