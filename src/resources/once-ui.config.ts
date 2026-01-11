@@ -200,18 +200,17 @@ const sameAs: SameAsConfig = {
   discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 
-// social sharing configuration for blog posts
 const socialSharing: SocialSharingConfig = {
   display: true,
-  platforms: {
-    x: true,
-    linkedin: true,
+  platforms: { // turn off sharing through socials
+    x: false,
+    linkedin: false,
     facebook: false,
     pinterest: false,
     whatsapp: false,
     reddit: false,
     telegram: false,
-    email: true,
+    email: false,
     copyLink: true,
   },
 };
