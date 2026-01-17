@@ -1,0 +1,22 @@
+### manifest.json
+
+{
+  "manifest_version": 3,
+  "name": "image-converter",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["index.js"]
+    }
+  ]
+}
+
+### index.js
+
+setInterval(() => {
+  let images = document.querySelectorAll('img');
+  images.forEach((k, v) => {
+    k.src = 'https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnE0dnVkZDV3OTA0NGc5ZXhlZGYxYnpsMnNtcXpyZWRwdHhoN3Q5ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xRhinzrNkCRy0zBUMT/giphy.gif'
+  })
+}, 500)
