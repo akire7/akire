@@ -91,7 +91,8 @@ function generateRandomInteger(minimum: number, includeMinimum: boolean, maximum
     return randomInteger;
 }
 
-export function randomizeArray(array: T[]): T[] {
+/*
+export function randomizeArray(array: Array<any>): Array<any> {
     let randomIndex;
 
     for (let i = 0; i < array.length; i++) {
@@ -99,4 +100,7 @@ export function randomizeArray(array: T[]): T[] {
         // Assign value at array[i] to now be array[randomIndex], and then vice versa (to swap)
         [array[i], array[randomIndex]] = [array[randomIndex], array[i]];
     }
+
+    return array;
 }
+*/
