@@ -19,8 +19,8 @@ pnpm dev
 Frameworks:
 - Next.js
 
-Tools:
-- [Once UI](https://once-ui.com/)
+Database:
+- MongoDB (NoSQL)
 
 Deployment:
 - Vercel
@@ -28,3 +28,7 @@ Deployment:
 Version Control:
 - GitHub
 - Git
+
+## Credits
+
+akire is built with "[Magic Portfolio](https://github.com/once-ui-system/magic-portfolio)", a Next.js template built with [Once UI](https://once-ui.com/).
