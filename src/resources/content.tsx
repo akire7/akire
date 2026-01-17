@@ -308,7 +308,17 @@ const gallery: Gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-  ],
+    {
+      src: "/images/gallery/tragedy.png",
+      alt: "image",
+      orientation: "horizontal",
+    },
+    {
+      src: "/images/gallery/renaissance.jpg",
+      alt: "image",
+      orientation: "horizontal",
+    },
+  ]
 };
 
 export { person, social, newsletter, home, about, blog, work, gallery };
